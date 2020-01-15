@@ -7,7 +7,7 @@ from torchvision.utils import save_image
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
 import torch
-
+   
 import datasetloader
 from models import CycleGenerator
 class Opt(object):
